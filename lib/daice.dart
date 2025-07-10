@@ -35,6 +35,12 @@ class _MyWidgetState extends State<MyWidget> {
               height: 200,
               fit: BoxFit.contain,
             ),
+            Image.asset(
+              activediceimage,
+              width: 200,
+              height: 200,
+              fit: BoxFit.contain,
+            ),
             const SizedBox(height: 20),
             Text(
               'You rolled: $diceNumber',
